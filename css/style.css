@@ -1,0 +1,180 @@
+/* Skin tulaci.cz */
+
+body {
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	FONT-STYLE: normal;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #7EAFDE;
+	margin: 0;
+}
+
+#main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 798px;
+	border-left: 1px solid #7EAFDE;
+	border-right: 1px solid #7EAFDE;
+	padding: 0;
+	background: #E7E7EF;
+}
+
+#zahlavi { 
+	padding: 0px;
+	height: 149px;	
+	background: #E7E7EF url("/img/hlavni.jpg") repeat;
+}
+
+#menu {
+	text-align: center;
+	background: #669933 url("pics/zidle.jpg") no-repeat 65px 0px;
+	padding: 4px 2px;
+	border-bottom:  2px solid #003399;
+  margin-bottom: 8px;
+}
+
+#submenu {
+	text-align: center;
+	background: #E7E7EF;
+	padding: 4px 2px;
+}
+
+#sloupec {
+	float: right;
+	width: 250px;
+
+}
+
+#text {
+	background: #E7E7EF;
+	margin-right: 250px;
+}
+
+#footer {
+	margin-top: 20px;
+	padding: 10px 1px;
+	background: #B4C4E5;
+	clear:both;
+}
+#footer p {
+  padding: 10px 10px 0 10px;
+}
+
+h1.nadpis, h2.nadpis {
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	margin: 1px 3px 5px 3px;
+	border-bottom: 1px solid #003399;
+}
+
+span.nadpis {
+	font-size: 16px; color: #003399;
+	border-bottom: 2px solid #003399;
+}
+
+b.barevne {color: #003399;}
+
+div.text {
+	margin: 0px 6px 20px 6px;
+}
+
+p.text {
+	text-align: justify;
+}
+
+p.foto {
+	text-align: center;
+}
+p.foto a img {border: 2px solid #E7E7EF}
+p.foto a:hover img {border: 2px solid #003399; text-decoration: none;}
+p.foto a:hover {text-decoration: none;}
+
+p {margin: 0px 0px 6px 0px; padding: 0px}
+
+.text_forum {
+	padding: 1px 1px 1px 6px;
+	margin: 1px;
+	text-align: justify;
+}
+
+.info {
+	color: #989898;
+	padding: 0 4px;
+}
+
+.ohlaseni {
+	text-align: center;
+	color: blue;
+}
+
+.odkaz {
+	text-align: center;
+}
+
+.chyba {
+	color: red;
+	text-align: center;
+}
+
+input,textarea {
+	border: 1px solid black;
+}
+
+a  img { border: 0px}
+a:link { color: #003399; text-decoration: none; }
+a:visited { color: #003399;; text-decoration: none;}
+a:hover { color: #003399; text-decoration: underline; }
+
+a.propozice { background: url('pics/propozice.png') no-repeat; padding-left: 24px; height: 22px;display: block; padding-top: 3px}
+
+
+
+ul {margin: 0px; padding-left: 20px}
+li {padding-left: 0px}
+
+/*forum*/
+span.nadpis_fora {
+	font-size: 16px;
+	font-weight: bold;
+}
+tr.tmava, td.tmava {
+	background: #B4C4E5;
+}
+
+/*FOTKY*/
+.imgwrapper {
+	float: left;
+	margin: 0 0 15px 25px;
+	padding: 2px;
+	height:113px;
+}
+.imgwrapper span {
+	display:block;
+	font:9px verdana, sans-serif;
+	text-align:center;	
+}
+.imgwrapper img {
+	background-color: #E7E7EF;
+	border: 1px solid #003399;
+	/*-moz-border-radius:5px;*/
+	padding: 2px;
+}
+.imgwrapper a:visited img {
+	background-color:#aaa;	
+}
+.imgwrapper a:hover img, .imgwrapper a:focus img {
+	background-color: #003399;
+}
+.imgwrapper a:hover, .imgwrapper a:focus {
+	color:#000;
+}
+
+div.mapa  {width: 538px; height: 300px; border: 2px solid #003399; margin: 3px}
+
+.ramecek {
+	padding: 2px;
+	background: #B4C4E5;
+	text-align:left;
+	height:120px;
+}
